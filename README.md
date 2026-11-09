@@ -2,6 +2,9 @@
 
 This is a source supplement for selected results, not a full formalization of the paper.
 Publication-scope alignment: 2026-11-09.
+Repository: https://github.com/xyli9596/zero-density-lean-supplement
+
+This repository is intentionally private until the manuscript has appeared on arXiv. Public release is a separate later step.
 Coverage snapshot SHA-256: 5f47ff7a69af6a55cb2b610f8157689d34fe9e8d7504cab9b146608ee285e184.
 Rechecked against the later source 8131d9037823438b6af40c6164912a27b9ed3ba2a6322ebd7a8498d4867d05f7: all ten complete numbered statements and their assumptions are unchanged.
 

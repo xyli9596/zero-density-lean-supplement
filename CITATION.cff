@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite a fixed commit of this partial formalization and state its verified scope."
+type: software
+title: "Partial Lean formalization of selected results on zero distribution of complex linear differential equations"
+authors:
+  - family-names: Li
+    given-names: Xing-Yu
+version: 0.1.0
+date-released: 2026-11-09
+repository-code: "https://github.com/xyli9596/zero-density-lean-supplement"
+url: "https://github.com/xyli9596/zero-density-lean-supplement"
+abstract: "Partial Lean 4 formalization of ten numbered results; Theorems 1.1--1.5 are not fully formalized. See COVERAGE.csv for exact scope and qualifications."

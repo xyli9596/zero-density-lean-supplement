@@ -1,0 +1,386 @@
+{
+  "scope_date": "2026-11-09",
+  "manuscript_sha256": "5f47ff7a69af6a55cb2b610f8157689d34fe9e8d7504cab9b146608ee285e184",
+  "snapshot": "paper/zero_density_intro_v10.2026-11-09-publication.tex",
+  "numbering_checked_against_aux": true,
+  "lean_proof_sources_changed": false,
+  "kernel_build_date": "2026-11-08",
+  "kernel_build_record": "verification/last-full-run.json",
+  "matching_successful_source_certificates": 462,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "review_rule": "Statement-and-assumption correspondence plus existing kernel certificates; compilation alone does not establish manuscript correspondence.",
+  "current_paper_alignment": "All ten complete statements, their numbers, labels and inherited hypotheses are unchanged from the kernel-audited manuscript. Only display numbering or reference wording changed in their informal proofs.",
+  "other_changes": [
+    "Corollary 1.6 now permits exponential type below 2a.",
+    "The periodic-exception proposition is now 7.2, formerly 7.3.",
+    "The osculating-hyperplane result is now Proposition 7.3, formerly Corollary 7.2."
+  ],
+  "independent_review": "Two read-only agents rechecked current statement alignment and the seven previously missing endpoint mappings; root checked Proposition 3.1 and Lemmas 4.1 and 4.3.",
+  "results": [
+    {
+      "number": "1.1",
+      "kind": "theorem",
+      "label": "thm:intro",
+      "status": "partial",
+      "manuscript_line": 313,
+      "statement_sha256": "5e77e5aa3d15975f186ec797a5edac703ed069aadd3e16356df19442ec2a42ef",
+      "scope": "General Perron, actual scalar L1 convergence, explicit sector zero counting and actual divisor transfer are proved. The actual admissible-pair/inverse-branch construction and its integration into the original strip theorem remain open.",
+      "limitations": "No complete certificate for this numbered result.",
+      "endpoints": []
+    },
+    {
+      "number": "1.2",
+      "kind": "theorem",
+      "label": "thm:generic-density",
+      "status": "partial",
+      "manuscript_line": 348,
+      "statement_sha256": "4eca7e571e1b794e9b6a7370c1c90ed17cbf96b13738eb9c835c124d7cac7b4a",
+      "scope": "The complete slow-growth subspace dimension theorem is now proved. The connection to selected scalar indicators and positive sectorial zero density remains open.",
+      "limitations": "No complete certificate for this numbered result.",
+      "endpoints": []
+    },
+    {
+      "number": "1.3",
+      "kind": "theorem",
+      "label": "thm:global-zero-distribution",
+      "status": "partial",
+      "manuscript_line": 393,
+      "statement_sha256": "3c8ccc47196cedcf9d582e2c00c21309045dc86747f1da0f28ed100cf563c588",
+      "scope": "Exponential scale comparisons are proved. Uniform global upper bounds, off-ray bounds, and the two-subspace exceptional description are not. Current statement requires the polynomial exponent N to be uniform in epsilon.",
+      "limitations": "No complete certificate for this numbered result.",
+      "endpoints": []
+    },
+    {
+      "number": "1.4",
+      "kind": "theorem",
+      "label": "thm:exact-global",
+      "status": "partial",
+      "manuscript_line": 471,
+      "statement_sha256": "4bfb805cf933efd98f76f7a509e351e283efbfd23bcc9aec460f4c8ff9a57c84",
+      "scope": "Actual active-frequency data, model-measure pushforward, sampling, the full common complete-pluripolar projection cone and uniform coefficient-integral zero bound are proved. Moving-branch row growth, Lemma 4.2 physical-potential averaging, actual global zero-measure assembly and global tails remain open.",
+      "limitations": "No complete certificate for this numbered result.",
+      "endpoints": []
+    },
+    {
+      "number": "1.5",
+      "kind": "theorem",
+      "label": "thm:perturbation-stability",
+      "status": "partial",
+      "manuscript_line": 722,
+      "statement_sha256": "9bc12062e9bc707cf8e006edd94c7f6e6c2b9b551dbd4e3648ba2f352c11a886",
+      "scope": "Original strict exponential-type hypotheses now give one global growth gap, uniform actual normalized perturbation decay on a thin sector, actual perturbed unit-disk/enlarged-set zero bounds, and negligible added disk mass. Lemmas 3.2, 3.3, Proposition 3.1, Lemmas 4.1 and 4.3 and the actual sampled common exceptional cone are proved. Uniform moving inverse branches, entrance matrices and row estimates, Lemma 4.2, the actual global limiting zero measure and unperturbed/global tail estimates are still missing; Theorem 1.5 is not complete.",
+      "limitations": "No complete certificate for this numbered result.",
+      "endpoints": []
+    },
+    {
+      "number": "1.6",
+      "kind": "corollary",
+      "label": "cor:subunit-order-perturbations",
+      "status": "not_proved",
+      "manuscript_line": 756,
+      "statement_sha256": "f0508cb5fa174ffae7cbabe8ffd20b194bde896dd5352020e738e6fcd034b450",
+      "scope": "Latest statement uses exponential type below 2a, not order below one. It still depends on the unformalized complete Theorem 1.5.",
+      "limitations": "No complete certificate for this numbered result.",
+      "endpoints": [],
+      "title": "Uniform perturbation type below 2a"
+    },
+    {
+      "number": "2.1",
+      "kind": "lemma",
+      "label": "lem:phase-coefficient-limit",
+      "status": "proved",
+      "manuscript_line": 1136,
+      "statement_sha256": "b40cae754e332bbeed1034d1f688242599ffa80c4f9c3a7addad91798f2228d2",
+      "scope": "Uniform transformed-coefficient limits on a given fixed analytic inverse branch.",
+      "limitations": "The inverse branch is an original hypothesis. Its existence and uniform moving-branch estimates are not included.",
+      "endpoints": [
+        {
+          "name": "V10.FixedBranchCoefficients.lemma_2_1",
+          "file": "V10/FixedBranchCoefficients.lean",
+          "line": 25,
+          "source_sha256": "499ab74e4c335028244cc1bc17627eb73bb9d125711073ce80ba216049a0146a"
+        }
+      ]
+    },
+    {
+      "number": "2.2",
+      "kind": "lemma",
+      "label": "lem:radial-system-growth",
+      "status": "proved",
+      "manuscript_line": 1259,
+      "statement_sha256": "1dbb663d308d6e37fe4e34286654cf2859433386db1c8ffbd2bd33cb56a5cd7a",
+      "scope": "Actual eigenvalue and radial logarithmic growth limit for a nonzero sectorial system solution.",
+      "limitations": "Allows arbitrary Jordan blocks; no diagonalizability or integrable perturbation is added.",
+      "endpoints": [
+        {
+          "name": "V10.PerronSector.lemma_2_2",
+          "file": "V10/PerronSector.lean",
+          "line": 103,
+          "source_sha256": "77c75c057b15ed2fbe4239ecd50c819933f75a69e383545e03f96fe363c5da6c"
+        }
+      ]
+    },
+    {
+      "number": "2.3",
+      "kind": "lemma",
+      "label": "lem:phase-equation",
+      "status": "partial",
+      "manuscript_line": 1362,
+      "statement_sha256": "f8cc1afa80d9284aefc16febbe95a9612d71f37a964673f32709b42b3eb19b3e",
+      "scope": "Old proofs give uniform o(1) asymptotics for an existing fixed branch. All-branch existence, uniform integer-index entrance and the current quantitative error are missing.",
+      "limitations": "No complete certificate for this numbered result.",
+      "endpoints": []
+    },
+    {
+      "number": "2.4",
+      "kind": "lemma",
+      "label": "lem:branch-matrix-bounds",
+      "status": "partial",
+      "manuscript_line": 1516,
+      "statement_sha256": "6bd5fdced9d3324f5086a46ccb6905d69bc5a984fc94e45209211f43efcbc631",
+      "scope": "General forward and reverse Gronwall bounds are available. Uniform branch-dependent closeness and entrance bounds are not established.",
+      "limitations": "No complete certificate for this numbered result.",
+      "endpoints": []
+    },
+    {
+      "number": "2.5",
+      "kind": "lemma",
+      "label": "lem:uniform-fundamental-row",
+      "status": "partial",
+      "manuscript_line": 1544,
+      "statement_sha256": "8ad5b39137e3ce17a7af84bf37b976d9bd5b74955fc9a39ebf9ea34ce48de080",
+      "scope": "Cauchy derivative comparisons and growth estimates are reusable; the complete uniform fundamental-row estimate is missing.",
+      "limitations": "No complete certificate for this numbered result.",
+      "endpoints": []
+    },
+    {
+      "number": "3.1",
+      "kind": "proposition",
+      "label": "prop:sectorial-counting",
+      "status": "proved",
+      "manuscript_line": 1726,
+      "statement_sha256": "63d9267567ecc4d1b69d1f21a9809e5949dd84ba50485ec53d853cd66ff70ebf",
+      "scope": "Actual selected-root support limit, explicit supporting-face edge weights, and actual exterior-sector zero counts with o(R) remainder.",
+      "limitations": "Uses the actual scalar ODE and coefficient limits. The explicit selection criterion is unfolded by ScalarPolygonIndicator.mem_indicatorVertices.",
+      "endpoints": [
+        {
+          "name": "V10.ScalarSectorCounting.proposition_3_1",
+          "file": "V10/ScalarSectorCounting.lean",
+          "line": 48,
+          "source_sha256": "e29c6d6c7576dd6a4674c85f0a20601c44fa68f2a2a59678ae78749bb1ee5316"
+        },
+        {
+          "name": "V10.ScalarSectorCounting.proposition_3_1_littleO",
+          "file": "V10/ScalarSectorCounting.lean",
+          "line": 132,
+          "source_sha256": "e29c6d6c7576dd6a4674c85f0a20601c44fa68f2a2a59678ae78749bb1ee5316"
+        }
+      ]
+    },
+    {
+      "number": "3.2",
+      "kind": "lemma",
+      "label": "lem:indicator-limit",
+      "status": "proved",
+      "manuscript_line": 1770,
+      "statement_sha256": "dc416710174892d1a1cbb95c82974b412402113a6309e1a7fddbb41054287689",
+      "scope": "Actual scalar indicator and full real-scale local L1 convergence from the scalar ODE.",
+      "limitations": "Local L1 convergence is proved; pointwise convergence of scalar logarithms is not asserted.",
+      "endpoints": [
+        {
+          "name": "V10.ScalarIndicatorLimit.lemma_3_2",
+          "file": "V10/ScalarIndicatorLimit.lean",
+          "line": 43,
+          "source_sha256": "2fd25743ae31da19b801259068c9c0a43764c747237eacef528cb802132e2e69"
+        }
+      ]
+    },
+    {
+      "number": "3.3",
+      "kind": "lemma",
+      "label": "lem:local-root-selection",
+      "status": "proved",
+      "manuscript_line": 2256,
+      "statement_sha256": "f967c506b83240f3818c6d40d0878accd898b5836dbcede5f0691142f91e9a6d",
+      "scope": "Actual characteristic-root selection, exact finite maximum representation and conjugate convex-hull vertices.",
+      "limitations": "Repeated roots are represented as a set. The original nonempty angular interval has width less than pi.",
+      "endpoints": [
+        {
+          "name": "V10.ScalarLocalRootSelection.lemma_3_3",
+          "file": "V10/ScalarLocalRootSelection.lean",
+          "line": 65,
+          "source_sha256": "78758b8f2ad436bb921d20761dd978b260bebd7bb10e777a4fd98906c5b4954c"
+        }
+      ]
+    },
+    {
+      "number": "3.4",
+      "kind": "lemma",
+      "label": "lem:radial-transfer",
+      "status": "proved",
+      "manuscript_line": 2747,
+      "statement_sha256": "7dbbea6ee7986fa1189b54f77b4c9f3ad0ecb33d3bafbaa1a6f5e920be8c61a0",
+      "scope": "Actual zero-multiplicity transfer under the stated conformal coordinates, including the o(Q) remainder.",
+      "limitations": "This is a conditional lemma: the phase-plane counting law and uniform inverse-radius asymptotic are original hypotheses. It does not construct those inputs.",
+      "endpoints": [
+        {
+          "name": "V10.DomainDivisorCount.radial_transfer_open_domain",
+          "file": "V10/DomainDivisorCount.lean",
+          "line": 173,
+          "source_sha256": "4553d1a32b52f8c3947b85af3756804e85320a5de55f5d617de6d02ccbd6400a"
+        }
+      ]
+    },
+    {
+      "number": "3.5",
+      "kind": "proposition",
+      "label": "prop:shrinking-tubes",
+      "status": "partial",
+      "manuscript_line": 2844,
+      "statement_sha256": "d96c18c979bc08c4cb54c64eb71235b1f85e66ef1fc31bff2aec848ddf267389",
+      "scope": "The actual fixed-sector zero density with explicit edge weights is now proved, and the prior shrinking-width construction is retained. The full fixed-width concentration and inverse-map physical-distance comparison needed for the printed shrinking-tube statement are not yet assembled.",
+      "limitations": "No complete certificate for this numbered result.",
+      "endpoints": []
+    },
+    {
+      "number": "3.6",
+      "kind": "lemma",
+      "label": "lem:slower-growth-subspace",
+      "status": "proved",
+      "manuscript_line": 2920,
+      "statement_sha256": "b15345718cefc39a524476bc818164732aff568d379c7fbf187cd25703af7dda",
+      "scope": "Growth classification, slow-space algebraic-multiplicity dimension, and equality with the literal slow initial-value set.",
+      "limitations": "Both endpoints are needed to exhibit all parts of the numbered statement.",
+      "endpoints": [
+        {
+          "name": "V10.PerronSlowSubspace.lemma_3_6",
+          "file": "V10/PerronSlowSubspace.lean",
+          "line": 111,
+          "source_sha256": "c07a139d1bc58782186109c64cfdc484e24402042be139bbf7cd2f80fa222c3f"
+        },
+        {
+          "name": "V10.PerronSlowSubspace.lemma_3_6_initial_values",
+          "file": "V10/PerronSlowSubspace.lean",
+          "line": 173,
+          "source_sha256": "c07a139d1bc58782186109c64cfdc484e24402042be139bbf7cd2f80fa222c3f"
+        }
+      ]
+    },
+    {
+      "number": "3.7",
+      "kind": "proposition",
+      "label": "prop:nonmaximal-strip-count",
+      "status": "not_proved",
+      "manuscript_line": 3008,
+      "statement_sha256": "364fe8753b394c14c25b7849d6b638785394594efa763b5d100b0b93a015b1f8",
+      "scope": "Real-analysis suppression of a lower exponential rate is proved; the nonmaximal-vertex phase reduction and strip count are not.",
+      "limitations": "No complete certificate for this numbered result.",
+      "endpoints": []
+    },
+    {
+      "number": "3.8",
+      "kind": "corollary",
+      "label": "cor:exposed-frequency-vertices",
+      "status": "proved",
+      "manuscript_line": 3076,
+      "statement_sha256": "b39618c064973b7260a9a33aa95c22bf67e1fc9c959202b6c3bd0d821c3940a7",
+      "scope": "Both directions of the finite convex-geometric radial exposure characterization.",
+      "limitations": "Does not prove Proposition 3.7 analytic strip counting.",
+      "endpoints": [
+        {
+          "name": "V10.ExposedFrequencyVertices.corollary_3_8",
+          "file": "V10/ExposedFrequencyVertices.lean",
+          "line": 74,
+          "source_sha256": "59889dc04816b4e73d50eea64a9deebd84933b8a36880dd2bd533a50151fca60"
+        }
+      ]
+    },
+    {
+      "number": "4.1",
+      "kind": "lemma",
+      "label": "lem:coefficient-integral-zero-bound",
+      "status": "proved",
+      "manuscript_line": 3159,
+      "statement_sha256": "287f49a8e74a375a11b76392469471653fa68f341c446830760ee5806da703a1",
+      "scope": "One solution-independent constant for actual unit-disk zero counts and enlarged-set integral bounds with the manuscript weight.",
+      "limitations": "The Lean proof uses Cauchy/Gronwall/Jensen instead of formalizing the cited Yakovenko argument-variation theorem.",
+      "endpoints": [
+        {
+          "name": "V10.CoefficientIntegralZeroBound.lemma_4_1",
+          "file": "V10/CoefficientIntegralZeroBound.lean",
+          "line": 83,
+          "source_sha256": "84869fcb230efd21d8b97ec71549cd90df874dcd7e7170002e1c926c105db354"
+        }
+      ]
+    },
+    {
+      "number": "4.2",
+      "kind": "lemma",
+      "label": "lem:physical-window",
+      "status": "not_proved",
+      "manuscript_line": 3286,
+      "statement_sha256": "14348abee9c288db614838f02d751841a4be864fc6ca89edb34c4d0d8b8d9aec",
+      "scope": "Physical-window potential averaging is unproved. The parabolic model-measure calculation is a separate downstream result.",
+      "limitations": "No complete certificate for this numbered result.",
+      "endpoints": []
+    },
+    {
+      "number": "4.3",
+      "kind": "lemma",
+      "label": "lem:pluripolar-projection",
+      "status": "proved",
+      "manuscript_line": 3419,
+      "statement_sha256": "75e752e57457452c9622841648e4a39e1e0058525d584aa912714e3d442ea2f3",
+      "scope": "A single nontrivial extended-real PSH potential and complete pluripolar cone controlling actual losses on all prescribed real affine windows.",
+      "limitations": "Uses the literal entire row and Euclidean row norm. This is projection-loss convergence, not the physical row-potential average of Lemma 4.2.",
+      "endpoints": [
+        {
+          "name": "V10.ProjectionLemma43.lemma_4_3",
+          "file": "V10/ProjectionLemma43.lean",
+          "line": 55,
+          "source_sha256": "ca47181e9528f3cf6063a62765e914eebfa7bf9de70ad9d25c818b78c36234af"
+        }
+      ]
+    },
+    {
+      "number": "7.1",
+      "kind": "proposition",
+      "label": "cor:critical-ray-zero-bound",
+      "status": "partial",
+      "manuscript_line": 6429,
+      "statement_sha256": "782dabd07889241dc6300c132be2f56cd4775d4b2e0d495a2b0304b3e744adfe",
+      "scope": "Strict projection gaps and a uniform gap over finitely many critical directions are proved. The ODE zero bound in their neighborhoods is missing.",
+      "limitations": "No complete certificate for this numbered result.",
+      "endpoints": []
+    },
+    {
+      "number": "7.2",
+      "kind": "proposition",
+      "label": "prop:periodic-finite-exception",
+      "status": "partial",
+      "manuscript_line": 6483,
+      "statement_sha256": "d638f3ba2dec5e466405e6aa39a822d1b36164160c2ed7cff7ab89fdeffab29d",
+      "scope": "The complete finite-dimensional, vector-valued vanishing-space identity for all integer powers and each monodromy residue class is proved, including properness when the block projection is nonzero. Sectorial reduction, zero-density lower bounds, averaging, and the exact analytic bad set are still missing.",
+      "limitations": "No complete certificate for this numbered result.",
+      "endpoints": []
+    },
+    {
+      "number": "7.3",
+      "kind": "proposition",
+      "label": "prop:osculating-hyperplanes",
+      "status": "not_proved",
+      "manuscript_line": 6837,
+      "statement_sha256": "1291ee9aab5f77d43599607939f4c5ee2614805c9a1bc67e9ab76a6ed00a59f3",
+      "scope": "Now Proposition 7.3, formerly Corollary 7.2. The full Wronskian/adjoint equation and analytic count are not formalized.",
+      "limitations": "No complete certificate for this numbered result.",
+      "endpoints": [],
+      "title": "Osculating hyperplanes and Wronskian zero counts"
+    }
+  ],
+  "aligned_manuscript_sha256": "8131d9037823438b6af40c6164912a27b9ed3ba2a6322ebd7a8498d4867d05f7",
+  "alignment_note": "The later source only expands the geometric equivalence before Proposition 7.3. All ten complete numbered statements, labels, numbers and inherited assumptions remain byte-identical."
+}

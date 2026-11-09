@@ -1,0 +1,44 @@
+PROJECT_AXIOM_AUDIT legacy=632 v10=1433: only propext, Classical.choice, Quot.sound.
+'V10.FixedBranchCoefficients.lemma_2_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.DomainDivisorCount.radial_transfer_open_domain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.ContinuousFrequency.compact_frequency_analytic_input' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.GaussianProfile.map_source_eq_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.PeriodicVanishing.residueFiniteSpace_eq_integer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.ShrinkingTubes.exists_shrinking_tube_littleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.SamplingScale.summable_reciprocal_phaseScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.SelectedVertices.conjugate_selected_are_exact_vertices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.PerronGeneral.perron_growth_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.PerronSector.lemma_2_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.PerronSlowSubspace.lemma_3_6' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.PerronSlowSubspace.lemma_3_6_initial_values' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.SubharmonicHartogs.analytic_norm_compact_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.PerronVectorSubharmonic.actual_indicator_subharmonic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.ScalarIndicatorLimit.lemma_3_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.ScalarLocalRootSelection.lemma_3_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.LogPoincareLelong.analytic_log_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.ProjectionGaussianLoss.integral_abs_normalized_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.ExposedFrequencyVertices.corollary_3_8' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.ScalarZeroMeasureCompact.sector_scalar_zero_measure_tendsto_test' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'V10.HolomorphicProjectionSeries.constructed_potential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.ContinuousMeasureTests.continuous_test_tendsto_of_smooth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'V10.ProjectionAffineWindow.averagedLogProjection_window_smul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'V10.ScalarSectorCounting.proposition_3_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.ScalarSectorCounting.proposition_3_1_littleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.PolygonSupportLaplacian.polygon_support_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.CoefficientIntegralZeroBound.lemma_4_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.GenericCoefficientZeroBound.exists_uniform_zero_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.ProjectionLemma43.lemma_4_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.ProjectionSampledPhysicalWindows.sampled_physical_window_projection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'V10.PerturbationGrowth.finite_family_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.PerturbationWeight.disk_mass_littleO' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.PerturbationZeroBound.perturbed_integral_zero_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.PerturbationSectorDecay.finite_family_sector_decay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'V10.PerturbationSectorDecay.normalized_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

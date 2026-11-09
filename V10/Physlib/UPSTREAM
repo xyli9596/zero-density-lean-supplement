@@ -1,0 +1,4 @@
+Adapted from https://github.com/leanprover-community/physlib
+Commit 6fd6640d23ae4df6ba93ede701528f2f08718f95
+Apache-2.0; original copyright headers retained.
+Changes: module import paths prefixed V10.; Lean4.33 compatibility adjustments documented in audit.

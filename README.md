@@ -4,7 +4,16 @@ This is a source supplement for selected results, not a full formalization of th
 Publication-scope alignment: 2026-11-09.
 Repository: https://github.com/xyli9596/zero-density-lean-supplement
 
-This repository is intentionally private until the manuscript has appeared on arXiv. Public release is a separate later step.
+## Associated paper
+
+Xing-Yu Li, *Global zero distribution and pluripolar exceptional cones for complex linear differential equations* (2026).
+
+- Paper: [arXiv:2611.12670](https://arxiv.org/abs/2611.12670)
+- Assessed manuscript version: [arXiv:2611.12670v1](https://arxiv.org/abs/2611.12670v1)
+- Categories: Classical Analysis and ODEs (math.CA); Complex Variables (math.CV).
+- This supplement is a separate, partial formalization resource. It does not certify the full paper.
+
+The proof-source snapshot is commit `c76593e434064df5bd62c37432587aacddb0cb27` ([fixed source](https://github.com/xyli9596/zero-density-lean-supplement/tree/c76593e434064df5bd62c37432587aacddb0cb27)).
 Coverage snapshot SHA-256: 5f47ff7a69af6a55cb2b610f8157689d34fe9e8d7504cab9b146608ee285e184.
 Rechecked against the later source 8131d9037823438b6af40c6164912a27b9ed3ba2a6322ebd7a8498d4867d05f7: all ten complete numbered statements and their assumptions are unchanged.
 

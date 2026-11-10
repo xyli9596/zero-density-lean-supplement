@@ -6,7 +6,18 @@ authors:
   - family-names: Li
     given-names: Xing-Yu
 version: 0.1.0
-date-released: 2026-11-09
+date-released: 2026-11-10
 repository-code: "https://github.com/xyli9596/zero-density-lean-supplement"
 url: "https://github.com/xyli9596/zero-density-lean-supplement"
 abstract: "Partial Lean 4 formalization of ten numbered results; Theorems 1.1--1.5 are not fully formalized. See COVERAGE.csv for exact scope and qualifications."
+preferred-citation:
+  type: article
+  title: "Global zero distribution and pluripolar exceptional cones for complex linear differential equations"
+  authors:
+    - family-names: Li
+      given-names: Xing-Yu
+  year: 2026
+  url: "https://arxiv.org/abs/2611.12670"
+  identifiers:
+    - type: other
+      value: "arXiv:2611.12670"
